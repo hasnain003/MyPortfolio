@@ -44,7 +44,7 @@ body{
 
 
 
-.navbar-brand{
+.navbar-brand {
   padding:5px;
   padding-left : 20px;
   height:50px;
@@ -54,42 +54,50 @@ body{
 .navbar-brand img{
   height: 100%;
 } */
-.container{
-	padding:0;
+
+.container {
+	padding: 0;
 }
+
 @media screen and(min-width:768px)
 {
-	.row{
-	height:18em;
-}
-	.col-sm-12,.col-xs-12{
-	height:6em;
-	margin:0;
-	padding:0;
-}
-.responsive{
-	height:6em;
-	display:none;
-}
-.col-sm-1,.col-xs-1{
-	display:none;
-}
+
+	.row {
+	height: 18em;
+	}
+
+	.col-sm-12,.col-xs-12 {
+	height: 6em;
+	margin: 0;
+	padding: 0;
+	}
+
+.responsive {
+	height: 6em;
+	display: none;
+	}
+
+.col-sm-1,.col-xs-1 {
+	display: none;
+	}
 
 }
 
-.size{
-	text-align:center;
+.size {
+	text-align: center;
 }
-.label{
-	color: #003459;
+
+.label {
+	color:  #003459;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     margin-bottom: 0;
     text-align: center;
 }
-.name{
-	width:100%;
-	color: #003459;
+
+.name {
+	width: 100%;
+	color:  #003459;
     font-family: 'Dancing Script', cursive;
     font-size: 2.5em;
     font-weight: 300;
@@ -97,27 +105,30 @@ body{
     text-align: center;
 }
 
-header{
+header {
 	margin-bottom: 0;
-	height:70%;
+	height: 70%;
 }
 
-.text{
-	margin:5em auto;
+.text {
+	margin: 5em auto;
 	text-align: center;
 }
-div p{
-	text-align:center;
+
+div p {
+	text-align: center;
 }
-.block1{
+
+.block1 {
 	padding-top: 0;
-	display:block;
+	display: block;
 	box-shadow: 4px 4px 7px #333;
 }
-.full{
-	padding:0;
-	width:100%;
-	height:auto;
+
+.full {
+	padding: 0;
+	width: 100%;
+	height: auto;
 }
 
 
@@ -127,39 +138,48 @@ div p{
     position: relative;
     margin-bottom: 10%;
 }
+
 .works {
     padding-bottom: 3%;
     background: #fff;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
+
 .works-thumb {
     height: 300px;
 }
+
 #work-1 {
     background: url("img/github.png") no-repeat 100%;
     background-size: cover;
 }
+
 #work-2 {
     background: url("img/clock.png") no-repeat 100%;
     background-size: cover;
 }
+
 #work-3 {
     background: url("img/drum.png") no-repeat 100%;
     background-size: cover;
 }
+
 #work-4 {
     background: url("img/pixel.png") no-repeat 100%;
     background-size: cover;
 }
+
 #work-5 {
     background: url("img/animal.png") no-repeat 100%;
     background-size: cover;
 }
+
 #work-6 {
     background: url("img/bootstrap.png") no-repeat 100%;
     background-size: cover;
 }
+
 .block::after, .block::before {
     content: '';
     background: rgba(0,0,0,0.6);
@@ -170,20 +190,28 @@ div p{
     top: 0;
     overflow: hidden;
 }
+
 .block::after {
     left: -50%;
     transition: 0.5s;
 }
+
 .block::before {
     right: -50%;
     transition: 0.5s;
 }
+
 .block:hover:after {
     left: 0;
 }
+
 .block:hover:before {
     right: 0;
 }
+.block:hover{
+	box-shadow: 0px 0px 18px #444;
+}
+
 .works-caption {
     text-align: center;
     font-family: "Lato", serif;
@@ -200,35 +228,37 @@ div p{
     color: #fff;
     border: 2px solid #fff;
     transition: top 0.5s;
-    overflow:auto;
+    overflow: auto;
 }
+
 .block:hover .works-caption {
     top: 33%;
 }
+
 .works h2 {
     margin: 7% 0;
 }
 
 
-.end{
+.end {
 	background-color: #001;
 	padding-top: 10px;
 	align-content: center;
-	width:100%;
-	color:white;
+	width: 100%;
+	color: white;
 
 }
 
-.end h3{
-	text-align:center;
-	color:white;
-	display:block;
-	margin:auto;
+.end h3 {
+	text-align: center;
+	color: white;
+	display: block;
+	margin: auto;
 }
 
-.middle{
-	text-align:center;
-	display:block;
+.middle {
+	text-align: center;
+	display: block;
 }
 
 
@@ -241,26 +271,27 @@ div p{
 
 
 .sig {
-  margin:auto;
+  margin: auto;
   padding: 10px 0;
   width: 100%;
 }
 
-.sig p{
+.sig p {
   text-align: center;
   font-family: Helvetica, Arial, Sans-Serif;
   font-size: 0.85em;
   color: black;
-  font-weight:bold;
+  font-weight: bold;
+  padding:0px;
 }
 
-.sig .much-heart{
+.sig .much-heart {
   display: inline-block;
   position: relative;
   margin: 0 4px;
   height: 10px;
   width: 10px;
-  background: #AC1D3F;
+  background: #ac1d3f;
   border-radius: 4px;
   -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -291,9 +322,10 @@ div p{
   text-decoration: none;
   font-weight: bold;
 }
-.sig p{
-  color:white;
-  font-size:1em;
+
+.sig p {
+  color: white;
+  font-size: 1em;
 }
 
 
