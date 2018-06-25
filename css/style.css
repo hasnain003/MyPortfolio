@@ -1,0 +1,331 @@
+/*
+body{
+	padding:0;
+	margin:0;
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU8upyr7MnaszM9nu3JdFn0QKFKd_NyGrnYgcDGT0VupZCaoUd) no-repeat center center fixed;
+	background-size: cover; 
+}
+
+/*.header{
+	background: #018DED url(http://i1378.photobucket.com/albums/ah89/andreykokhanevich/portfolio%20page/header1-background_zpsdlk7p04z.jpg) no-repeat center center fixed;
+	background-size: cover;
+	width:100%;
+	min-height:100vh;
+	position:relative;
+
+}
+.inner-header{
+	width:100%;
+	position:relative;
+}
+.user {
+	border:solid 4px transparent;
+	border-radius:60%;
+	width:15%;
+    display: block;
+    margin:auto;
+
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  left:0;
+  right:0;
+  top:0;
+  height:60%;
+  color: #f1f1f1; 
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  overflow-y:auto;
+}
+
+
+
+.navbar-brand {
+  padding:5px;
+  padding-left : 20px;
+  height:50px;
+  position : relative;
+}
+
+.navbar-brand img{
+  height: 100%;
+} */
+
+.container {
+	padding: 0;
+}
+
+@media screen and(max-width:768px)
+{
+
+	.row {
+	height: 18em;
+	}
+
+	.col-sm-12,.col-xs-12 {
+	height: 6em;
+	margin: 0;
+	padding: 0;
+	}
+
+.responsive {
+	height: 6em;
+	display: none;
+	}
+
+.col-sm-1,.col-xs-1 {
+	display: none;
+	}
+
+}
+
+.size {
+	text-align: center;
+}
+
+.label {
+	color:  #003459;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.name {
+	width: 100%;
+	color:  #003459;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    font-weight: 300;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+header {
+	margin-bottom: 0;
+	height: 70%;
+}
+
+.text {
+	margin: 5em auto;
+	text-align: center;
+}
+
+div p {
+	text-align: center;
+}
+
+.block1 {
+	padding-top: 0;
+	display: block;
+	box-shadow: .25em .25em .4375em #333;
+}
+
+.full {
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+
+
+.block {
+    box-shadow: .25em .25em .4375em #333;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.works {
+    padding-bottom: 3%;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.works-thumb {
+    height: 18.75em;
+}
+
+#work-1 {
+    background: url("img/github.png") no-repeat 100%;
+    background-size: cover;
+}
+
+#work-2 {
+    background: url("img/clock.PNG") no-repeat 100%;
+    background-size: cover;
+}
+
+#work-3 {
+    background: url("img/drum.png") no-repeat 100%;
+    background-size: cover;
+}
+
+#work-4 {
+    background: url("img/pixel.png") no-repeat 100%;
+    background-size: cover;
+}
+
+#work-5 {
+    background: url("img/animal.PNG") no-repeat 100%;
+    background-size: cover;
+}
+
+#work-6 {
+    background: url("img/bootstrap.png") no-repeat 100%;
+    background-size: cover;
+}
+
+.block::after, .block::before {
+    content: '';
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+}
+
+.block::after {
+    left: -50%;
+    transition: 0.5s;
+}
+
+.block::before {
+    right: -50%;
+    transition: 0.5s;
+}
+
+.block:hover:after {
+    left: 0;
+}
+
+.block:hover:before {
+    right: 0;
+}
+.block:hover{
+	box-shadow: 0px 0px 1.15em #444;
+}
+
+.works-caption {
+    text-align: center;
+    font-family: "Lato", serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.4rem;
+    position: absolute;
+    border-radius: .625em;
+    display: block;
+    padding: .9375em .15em;
+    width: 60%;
+    left: 20%;
+    top:-80%;
+    z-index: 1;
+    color: #fff;
+    border: .15em solid #fff;
+    transition: top 0.5s;
+    overflow: auto;
+}
+
+.block:hover .works-caption {
+    top: 33%;
+}
+
+.works h2 {
+    margin: 7% 0;
+}
+
+
+.end {
+	background-color: #001;
+	padding-top: 0.63em;
+	align-content: center;
+	width: 100%;
+	color: white;
+
+}
+
+.end h3 {
+	text-align: center;
+	color: white;
+	display: block;
+	margin: auto;
+}
+
+.middle {
+	text-align: center;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.sig {
+  margin: auto;
+  padding: .63em 0;
+  width: 100%;
+}
+
+.sig p {
+  text-align: center;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 0.85em;
+  color: black;
+  font-weight: bold;
+  padding:0px;
+}
+
+.sig .much-heart {
+  display: inline-block;
+  position: relative;
+  margin: 0 4px;
+  height: 0.63em;
+  width: 0.63em;
+  background: #ac1d3f;
+  border-radius: 0.25em;
+  -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.sig .much-heart::before, 
+.sig .much-heart::after {
+    display: block;
+  content: '';
+  position: absolute;
+  margin: auto;
+  height: .63em;
+  width: 0.63em;
+  border-radius: .312em;
+  background: #AC1D3F;
+  top: -.25em;
+}
+
+.sig .much-heart::after {
+  bottom: 0;
+  top: auto;
+  left: -.25em;
+}
+
+.sig a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sig p {
+  color: white;
+  font-size: 1em;
+}
+
+
